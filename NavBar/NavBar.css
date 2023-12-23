@@ -1,0 +1,36 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  font-family: "Rubik Doodle Shadow";
+}
+.fatihin-navi {
+  background: url(./images/frozen-bubble-dark.jpg) center;
+}
+.fatihin-rengi {
+  background-color: transparent;
+  color: white !important;
+}
+.fatihin-rengi:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.Sn-FatihBey {
+  background-color: transparent;
+}
+
+.Sn-FatihBey:hover {
+  background-color: rgba(255, 0, 0, 0.6);
+  opacity: 0.7;
+  border-radius: 100px;
+}
+input[type="search"]:hover {
+  background: transparent;
+  border: none;
+}
+ul.transparent {
+  background-color: transparent !important;
+}
